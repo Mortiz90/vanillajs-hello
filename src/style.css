@@ -1,1 +1,56 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  height: 100%;
+  margin: 0;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 55vh;
+  max-width: 100%;
+  height: 75vh;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+#buttonGenerator {
+  background-color: white;
+  border-color: white;
+  font-weight: 500;
+  color: green;
+}
+#buttonGenerator:hover {
+  background-color: #6c3483;
+  border-color: #6c3483;
+  color: white;
+}
+.numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 170px;
+}
+.paloSuperior {
+  font-size: 90px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.paloInferior {
+  font-size: 90px;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
